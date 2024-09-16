@@ -6,9 +6,9 @@ const Header = () => {
   return (
     <div>
       <nav>
-        <div>
+        <div className="header">
           <Link className="title" to="/">
-            Calculator
+            Super Calculator
           </Link>
           <div className="menu" onClick={() => setIsMenuOpen(!isMenuOpen)} />
         </div>
